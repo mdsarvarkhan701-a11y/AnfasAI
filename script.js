@@ -12,4 +12,4 @@ async function generateImage() {
     const url = "https://image.pollinations.ai/prompt/" + encodeURIComponent(prompt);
 
     image.src = url;
-}
+}.
