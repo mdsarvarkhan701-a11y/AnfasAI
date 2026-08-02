@@ -4,5 +4,49 @@ function showMessage() {
 
 document.addEventListener("DOMContentLoaded", function () {
     console.log("AnfasAI Loaded Successfully");
-});
+});.generator{
+    max-width:700px;
+    margin:40px auto;
+    padding:25px;
+    background:#1a1a2e;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 0 20px rgba(0,255,255,.2);
+}
+
+.generator h2{
+    color:#00e5ff;
+    margin-bottom:20px;
+}
+
+.generator input{
+    width:90%;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+    margin-bottom:15px;
+    outline:none;
+}
+
+.generator button{
+    background:#00e5ff;
+    color:#000;
+    border:none;
+    padding:14px 30px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.generator button:hover{
+    background:#00bcd4;
+}
+
+#result img{
+    width:100%;
+    margin-top:20px;
+    border-radius:12px;
+}
     
